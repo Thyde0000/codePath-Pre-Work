@@ -4,7 +4,7 @@ App Description:
 A basic introduction application that allows for user input to introduce themselves
 
 App Walk-though
-https://github.com/Thyde0000/codePath-Pre-Work/blob/main/AppOverview%20-%20PreWork.gif?raw=true
+https://github.com/Thyde0000/codePath-Pre-Work/blob/main/AppOverview%20-%20PreWork.gif
 
 TODO:// In the Features section below, add an x between the -[ ] like this - [x] for any features you complete. (☝️ Remove this paragraph after after checking off user stories)
 
