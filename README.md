@@ -6,8 +6,6 @@ A basic introduction application that allows for user input to introduce themsel
 App Walk-Through
 ![](https://github.com/Thyde0000/codePath-Pre-Work/blob/main/AppOverview%20-%20PreWork.gif)
 
-TODO:// In the Features section below, add an x between the -[ ] like this - [x] for any features you complete. (☝️ Remove this paragraph after after checking off user stories)
-
 Required Features
 - [x]  1. App displays an image of a school's logo
 - [x]  2. App has three textfields for first, last, and school names
