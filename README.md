@@ -13,6 +13,7 @@ Required Features
 - [x]  4. Number of pet matches label is increased/decreased by stepper
 - [x]  5. Switch makes a statement about wanting more pets or not(true/false)
 - [x]  6. Introduce yourself button shows alert box with an introduciton and dismiss button
+
 Optional Features
 - [x]  1. User can tap a button to change the color of the background view
 - [x] 3. Any stylistic changes that are not default options 
