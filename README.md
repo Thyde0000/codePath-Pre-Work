@@ -3,7 +3,7 @@ Pre-Work Introduction
 App Description:
 An application that allows the user to enter basic information about themselves, how many pets they have or want, and allows them to customize the background color.
 
-![](https://github.com/Thyde0000/codePath-Pre-Work/blob/main/AppOverview%20-%20PreWork.gif)
+![](https://github.com/Thyde0000/codePath-Pre-Work/blob/main/AppPreview%20-%20PreWork.gif)
 
 Required Features
 - [x]  1. App displays an image of a school's logo
