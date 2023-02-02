@@ -7,8 +7,32 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
+    //Allows for changing the background color
+    var currentColor:UIColor = UIColor.red
+    @IBAction func changeBackground(_ sender: UIButton) {
+        if(currentColor == UIColor.red){
+            self.view.backgroundColor = UIColor.blue
+            currentColor = UIColor.blue
+                }
+        else if(currentColor == UIColor.blue){
+            self.view.backgroundColor = UIColor.green
+            currentColor = UIColor.green
+        }
+        else if(currentColor == UIColor.green){
+            self.view.backgroundColor = UIColor.systemPink
+            currentColor = UIColor.systemPink
+        }
+        else if(currentColor == UIColor.systemPink){
+            self.view.backgroundColor = UIColor.gray
+            currentColor = UIColor.gray
+        }
+        else{
+            self.view.backgroundColor = UIColor.red
+            currentColor = UIColor.red
+        }
+}
     
     @IBOutlet weak var morePetsSwitch: UISwitch!
     @IBOutlet weak var morePetsStepper: UIStepper!
@@ -33,9 +57,14 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = currentColor
         // Do any additional setup after loading the view.
     }
+    //Allows to hide keyboard when not on text, so you can actually press the Introduce button without it being hidden
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
 
-
+    
 }
 
