@@ -15,5 +15,5 @@ Required Features
 - [x]  6. Introduce yourself button shows alert box with an introduciton and dismiss button
 Optional Features
 - [x]  1. User can tap a button to change the color of the background view
-- []  2. User can select on additional buttons that provide more info about the user. Example: more textfields, a different alert box, etc.
-- [] 3. Any stylistic changes that are not default options (Comment this here)
+- [x] 3. Any stylistic changes that are not default options 
+(Added Ability to automatically hide keyboard when not inside of text field to allow access to Introduce button on the bottom, else it was impossible to press when running App on my device.)
