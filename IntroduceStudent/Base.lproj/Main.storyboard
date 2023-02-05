@@ -118,11 +118,26 @@
                                     <action selector="changeBackground:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rTy-N4-FCu"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Opacity:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kqE-EA-VyA">
+                                <rect key="frame" x="5" y="476" width="64" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ufq-q5-NPL">
+                                <rect key="frame" x="126" y="472" width="118" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="changeBackgroundSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="wny-op-LdN"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <connections>
+                        <outlet property="backgroundColorSlider" destination="Ufq-q5-NPL" id="Vht-FY-2OX"/>
                         <outlet property="firstNameTextField" destination="5lM-kp-nUi" id="mYE-bf-nUL"/>
                         <outlet property="lastNameTextField" destination="0aJ-vt-OLW" id="lho-nW-n26"/>
                         <outlet property="morePetsStepper" destination="eT2-34-YB3" id="QbQ-mC-eTg"/>
