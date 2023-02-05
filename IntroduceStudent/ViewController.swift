@@ -33,6 +33,14 @@ class ViewController: UIViewController, UITextFieldDelegate {
             currentColor = UIColor.red
         }
 }
+    //Allow for change in background opacity
+    @IBOutlet weak var backgroundColorSlider: UISlider!
+    @IBAction func changeBackgroundSlider(_ sender: UISlider) {
+        self.view.backgroundColor = currentColor.withAlphaComponent(CGFloat(sender.value))
+    }
+    
+    
+    
     
     @IBOutlet weak var morePetsSwitch: UISwitch!
     @IBOutlet weak var morePetsStepper: UIStepper!
